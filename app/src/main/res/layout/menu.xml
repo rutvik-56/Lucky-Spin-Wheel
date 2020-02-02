@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffcccc"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_weight="2"
+       android:gravity="center"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="25dp"
+           android:text="Choose Your Option"
+           android:textColor="#000000"/>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/r1"
+                android:layout_weight="1"
+                android:text="Play Lucky Spin"
+                android:checked="true"
+                android:textSize="20sp"
+                android:textColor="#ff0000"
+                android:onClick="onRadioButtonClicked"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <RadioButton
+                android:id="@+id/r2"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textColor="#ff0000"
+                android:text="Lucky Number Spin"
+                android:onClick="onRadioButtonClicked"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff6666"
+            android:text="OK"
+            android:textSize="20sp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff6666"
+            android:text="CANCEL"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

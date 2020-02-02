@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/maa"
+    android:background="#ffcccc"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/etComments"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter Name"
+        android:inputType="text"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/negative"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="CANCEL"
+            android:textStyle="bold"
+            android:layout_marginRight="3dp"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:background="#ff8888"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/positive"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#ff8888"
+            android:textSize="16dp"
+            android:text="SAVE"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
