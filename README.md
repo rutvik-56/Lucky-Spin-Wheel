@@ -1,7 +1,6 @@
 # Lucky-Spin-Wheel
 Internship Project (2nd Year)
 # Screenshot
-![Screenshot from 2020-02-02 15-54-07](https://user-images.githubusercontent.com/60552161/73952195-b99dd380-4924-11ea-8446-7d7c37887bc6.png)
 ![Screenshot from 2020-02-02 23-10-36](https://user-images.githubusercontent.com/60552161/73952199-bacf0080-4924-11ea-834e-8e3d1a4e91c4.png)
 ![Screenshot from 2020-02-02 23-11-51](https://user-images.githubusercontent.com/60552161/73952200-bb679700-4924-11ea-8983-3c7608c7c61e.png)
 ![Screenshot from 2020-02-02 23-12-39](https://user-images.githubusercontent.com/60552161/73952203-bc002d80-4924-11ea-8ab9-d8add5e0c63b.png)
